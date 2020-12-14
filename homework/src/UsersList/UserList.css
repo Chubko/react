@@ -1,0 +1,14 @@
+.User-List{
+    width: 600px;
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.Main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
