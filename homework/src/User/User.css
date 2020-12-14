@@ -1,0 +1,23 @@
+.Button-Details{
+    position: absolute;
+    right: 70px;
+}
+
+.Button-Posts{
+    position: absolute;
+    right: 10px;
+}
+
+.Button-Details a{
+    text-decoration: none;
+    color: black;
+}
+
+.Button-Posts a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    position: relative;
+}

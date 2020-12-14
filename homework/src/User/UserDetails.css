@@ -1,0 +1,15 @@
+.User-Details{
+    width: 500px;
+    color: black;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.User-Details-Item{
+    padding-left: 40px;
+}
+
+.User-Username{
+    font-size: 12px;
+}
