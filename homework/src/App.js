@@ -1,13 +1,18 @@
-import React, {Component} from 'react';
+import React from 'react';
+import UseState from "./components/UseState";
+import UseEffect from "./components/UseEffect";
+import UseReducer from "./components/UseReduce";
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-              
-            </div>
-        );
-    }
+export default function App(){
+
+    return(
+        <div>
+            <UseState user={{name: 'test2', age: 2}}/>
+            <hr/>
+            <UseEffect/>
+            <hr/>
+            <UseReducer/>
+        </div>
+
+    );
 }
-
-export default App;
