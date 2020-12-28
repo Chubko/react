@@ -1,0 +1,39 @@
+.ProductListItem{
+    color: #aeaeae;
+    cursor: pointer;
+}
+
+.cart{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.wishlist{
+    position: absolute;
+    right: 45px;
+    bottom: 5px;
+}
+
+.ProductList-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.ProductListItem {
+    position: relative;
+}
+
+img{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.added{
+    color: green;
+}
